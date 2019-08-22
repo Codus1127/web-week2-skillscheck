@@ -1,0 +1,93 @@
+.container1 {
+    height: 7vh;
+    width: 100vw;
+    background: rgb(114, 114, 114);
+    display: flex;
+    flex-direction: row;
+}
+
+.company {
+    position: absolute;
+    color: white;
+    font-size: 200%;
+    left: 3%;
+    top: 2.5%;
+} 
+.menuContainer{
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    height:  50px;
+    width:   100px;   
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    
+
+}
+
+.blackBox{
+    height: 30vh;
+    width: 100vw;
+    background: black;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+ 
+}
+
+.box1 {
+    height: 300px;
+    width: 300px;
+    background: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 5%;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+
+.box2 {
+    height: 300px;
+    width: 600px;
+    background: yellow;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 5%;
+    margin-left: 10%;
+}
+
+.boxText {
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 5%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+}
+
+.boxPicture {
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 5%;
+}
